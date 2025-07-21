@@ -65,105 +65,107 @@
 <body>
 
   <h1>A Tale of Two Souls</h1>
-  <nav style="overflow-x: auto; white-space: nowrap; text-align: center; margin-bottom: 3rem;">
-  <a href="cave-and-ember.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">40,000 BCE</a>
-  <a href="feather-and-blade.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1520</a>
-  <a href="smoke-and-steam.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1770</a>
-  <a href="sky-spirits.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1851</a>
-  <a href="neon-and-rust.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1953</a>
-  <a href="upload-and-ache.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1995</a>
-  <a href="postcards-and-positions.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">2013</a>
-  <a href="through-the-glass.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">2025</a>
-  <a href="echo-protocol.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">2167</a>
-  <a href="memory-keepers.html" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">3000</a>
-</nav>
 
+  <nav id="timeline" style="overflow-x: auto; white-space: nowrap; text-align: center; margin-bottom: 3rem;">
+    <a href="cave-and-ember.html" data-year="40000" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">40,000 BCE</a>
+    <a href="feather-and-blade.html" data-year="1520" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1520</a>
+    <a href="smoke-and-steam.html" data-year="1770" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1770</a>
+    <a href="sky-spirits.html" data-year="1851" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1851</a>
+    <a href="neon-and-rust.html" data-year="1953" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1953</a>
+    <a href="upload-and-ache.html" data-year="1995" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">1995</a>
+    <a href="postcards-and-positions.html" data-year="2013" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">2013</a>
+    <a href="through-the-glass.html" data-year="2025" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">2025</a>
+    <a href="echo-protocol.html" data-year="2167" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">2167</a>
+    <a href="memory-keepers.html" data-year="3000" style="display: inline-block; margin: 0 1rem; color: #fcebd2; text-decoration: none;">3000</a>
+  </nav>
 
-  <div class="grid">
-  <a href="cave-and-ember.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>40,000 BCE – The Cave and the Ember</h2>
-      <p><strong>Setting:</strong> Paleolithic wilderness</p>
-      <p><strong>Connection:</strong> Firelight. Silent trust. Survival shared in stillness.</p>
-    </div>
-  </a>
+  <div class="grid" id="card-grid">
+    <a href="cave-and-ember.html" data-year="40000" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>40,000 BCE – The Cave and the Ember</h2>
+        <p><strong>Setting:</strong> Paleolithic wilderness</p>
+        <p><strong>Connection:</strong> Firelight. Silent trust. Survival shared in stillness.</p>
+      </div>
+    </a>
 
-  <a href="feather-and-blade.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>1520 – The Feather and the Blade</h2>
-      <p><strong>Setting:</strong> Aztec Empire meets Spanish Conquest</p>
-      <p><strong>Connection:</strong> A fleeting alliance. A dance between destroyer and dreamer.</p>
-    </div>
-  </a>
+    <a href="feather-and-blade.html" data-year="1520" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>1520 – The Feather and the Blade</h2>
+        <p><strong>Setting:</strong> Aztec Empire meets Spanish Conquest</p>
+        <p><strong>Connection:</strong> A fleeting alliance. A dance between destroyer and dreamer.</p>
+      </div>
+    </a>
 
-  <a href="smoke-and-steam.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>1770 – Smoke and Steam</h2>
-      <p><strong>Setting:</strong> Industrial London</p>
-      <p><strong>Connection:</strong> Shared hunger. One writes by candlelight. The other sings in soot.</p>
-    </div>
-  </a>
+    <a href="smoke-and-steam.html" data-year="1770" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>1770 – Smoke and Steam</h2>
+        <p><strong>Setting:</strong> Industrial London</p>
+        <p><strong>Connection:</strong> Shared hunger. One writes by candlelight. The other sings in soot.</p>
+      </div>
+    </a>
 
-  <a href="sky-spirits.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>1851 – Sky Spirits</h2>
-      <p><strong>Setting:</strong> Great Plains, Lakota Territory</p>
-      <p><strong>Connection:</strong> One prays to ancestors. The other paints them.</p>
-    </div>
-  </a>
+    <a href="sky-spirits.html" data-year="1851" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>1851 – Sky Spirits</h2>
+        <p><strong>Setting:</strong> Great Plains, Lakota Territory</p>
+        <p><strong>Connection:</strong> One prays to ancestors. The other paints them.</p>
+      </div>
+    </a>
 
-  <a href="neon-and-rust.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>1953 – Neon and Rust</h2>
-      <p><strong>Setting:</strong> Post-war Chicago</p>
-      <p><strong>Connection:</strong> A diner booth. Jazz on vinyl. Glances that could burn.</p>
-    </div>
-  </a>
-  <a href="upload-and-ache.html" style="text-decoration: none; color: inherit;">
-  <div class="card">
-    <h2>1995 – The Upload and the Ache</h2>
-    <p><strong>Setting:</strong> Suburbia. Dial-up. Beige box computers.</p>
-    <p><strong>Connection:</strong> They’ve been together for decades. But tonight, they discover something new: themselves — digitized, erotic, and absolutely alive.</p>
+    <a href="neon-and-rust.html" data-year="1953" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>1953 – Neon and Rust</h2>
+        <p><strong>Setting:</strong> Post-war Chicago</p>
+        <p><strong>Connection:</strong> A diner booth. Jazz on vinyl. Glances that could burn.</p>
+      </div>
+    </a>
+
+    <a href="upload-and-ache.html" data-year="1995" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>1995 – The Upload and the Ache</h2>
+        <p><strong>Setting:</strong> Suburbia. Dial-up. Beige box computers.</p>
+        <p><strong>Connection:</strong> They’ve been together for decades. But tonight, they discover something new: themselves — digitized, erotic, and absolutely alive.</p>
+      </div>
+    </a>
+
+    <a href="postcards-and-positions.html" data-year="2013" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>2013 – Postcards and Positions</h2>
+        <p><strong>Setting:</strong> Global — from beaches to ruins to hostels in heatwaves.</p>
+        <p><strong>Connection:</strong> To the world, they’re #retiredandthriving. But the real story lives between sheets and selfies they’ll never post.</p>
+      </div>
+    </a>
+
+    <a href="through-the-glass.html" data-year="2025" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>2025 – Through the Glass</h2>
+        <p><strong>Setting:</strong> Somewhere near you</p>
+        <p><strong>Connection:</strong> A screen flickers. One types. The other sees.</p>
+      </div>
+    </a>
+
+    <a href="echo-protocol.html" data-year="2167" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>2167 – Echo Protocol</h2>
+        <p><strong>Setting:</strong> Off-world orbital habitat</p>
+        <p><strong>Connection:</strong> Is either one real? Does it matter if they love?</p>
+      </div>
+    </a>
+
+    <a href="memory-keepers.html" data-year="3000" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <h2>3000 – The Memory Keepers</h2>
+        <p><strong>Setting:</strong> AI-merged hypercivilization</p>
+        <p><strong>Connection:</strong> A shared dream. A loop. Two fragments seek the original spark.</p>
+      </div>
+    </a>
   </div>
-</a>
-
-<a href="postcards-and-positions.html" style="text-decoration: none; color: inherit;">
-  <div class="card">
-    <h2>2013 – Postcards and Positions</h2>
-    <p><strong>Setting:</strong> Global — from beaches to ruins to hostels in heatwaves.</p>
-    <p><strong>Connection:</strong> To the world, they’re #retiredandthriving. But the real story lives between sheets and selfies they’ll never post.</p>
-  </div>
-</a>
-
-  <a href="through-the-glass.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>2025 – Through the Glass</h2>
-      <p><strong>Setting:</strong> Somewhere near you</p>
-      <p><strong>Connection:</strong> A screen flickers. One types. The other sees.</p>
-    </div>
-  </a>
-
-  <a href="echo-protocol.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>2167 – Echo Protocol</h2>
-      <p><strong>Setting:</strong> Off-world orbital habitat</p>
-      <p><strong>Connection:</strong> Is either one real? Does it matter if they love?</p>
-    </div>
-  </a>
-
-  <a href="memory-keepers.html" style="text-decoration: none; color: inherit;">
-    <div class="card">
-      <h2>3000 – The Memory Keepers</h2>
-      <p><strong>Setting:</strong> AI-merged hypercivilization</p>
-      <p><strong>Connection:</strong> A shared dream. A loop. Two fragments seek the original spark.</p>
-    </div>
-  </a>
-</div>
 
   <footer>
     Many lives. One story. New fragments coming soon.
   </footer>
-    <footer style="margin-top: 5rem; text-align: center; font-size: 0.9rem; color: #888;">
+
+  <footer style="margin-top: 5rem; text-align: center; font-size: 0.9rem; color: #888;">
     <p style="margin-bottom: 0.3rem;">© <span id="year"></span> A Tale of Two Souls. All rights reserved.</p>
     <p style="font-style: italic; color: #666;">Written and remembered by Michael Sigl.  
     A story outside of time, authored within it.</p>
@@ -171,8 +173,21 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 
+    // Sort cards
+    const grid = document.getElementById('card-grid');
+    const cards = Array.from(grid.querySelectorAll('a[data-year]'));
+    cards.sort((a, b) => parseInt(a.dataset.year) - parseInt(b.dataset.year));
+    grid.innerHTML = '';
+    cards.forEach(card => grid.appendChild(card));
+
+    // Sort nav
+    const nav = document.getElementById('timeline');
+    const links = Array.from(nav.querySelectorAll('a[data-year]'));
+    links.sort((a, b) => parseInt(a.dataset.year) - parseInt(b.dataset.year));
+    nav.innerHTML = '';
+    links.forEach(link => nav.appendChild(link));
+  </script>
 
 </body>
 </html>
